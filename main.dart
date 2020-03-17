@@ -1,5 +1,4 @@
-//This code is written by Hari Krishnan U
-//This source code is meant to be submitted to Learn From Home by Tinkerhub
+//This source code is meant to be submitted to Flutter Next Steps | Learn From Home by Tinkerhub
 import 'dart:io';
   
 class tech{
