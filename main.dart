@@ -3,12 +3,17 @@ import 'dart:io';
   
 class tech{
 
-  int num_of_participants = 0;
+  int num_of_participants;
   //The number of participants is assumed to be 300 
   var role = new List(300);
   var participant_name = new List(300);
   var skill = new List(300);
   var available_time = new List(300);
+  
+  //A constructor to initialize the value of num_of_participants
+  tech(){
+    num_of_participants = 0;
+  }
   
   //Stores the various available technical skills
   String addStacks(){
