@@ -83,4 +83,6 @@ class tech{
 }
 
 void main(){
+  tech obj = new tech();
+  obj.setMentorOrLearner();
 }
