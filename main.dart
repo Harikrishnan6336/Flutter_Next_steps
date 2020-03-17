@@ -52,9 +52,6 @@ class tech{
       flag = stdin.readLineSync();
       flag = flag.toUpperCase();
       flag = flag.trim();
-      if(flag =='N'){
-        break;
-      }
       if(flag != 'Y' || flag != 'N'){
         print("Invalid input");
         continue;
