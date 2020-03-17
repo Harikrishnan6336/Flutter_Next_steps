@@ -1,4 +1,4 @@
-//This source code is meant to be submitted to Learn From Home by Tinkerhub
+//This source code is meant to be submitted to Flutter Next Steps | Learn From Home by Tinkerhub
 import 'dart:io';
   
 class tech{
@@ -15,6 +15,7 @@ class tech{
     String stack;
     print("Enter the tech skill in which the mentor/learner is  expert at/interested in : ");
     stack = stdin.readLineSync();
+    stack = stack.trim();
     return stack;
   }
   
@@ -36,6 +37,7 @@ class tech{
       print("Enter the designation of the participant (mentor/learner)?");
       desig = stdin.readLineSync();
       desig = desig.toLowerCase();
+      desig = desig.trim();
       if(desig != "learner" || desig != "mentor"){
         print("Invalid input");
         continue;
@@ -49,6 +51,7 @@ class tech{
       print("Do you want to add more participants? (Y/N)");
       flag = stdin.readLineSync();
       flag = flag.toUpperCase();
+      flag = flag.trim();
       if(flag =='N'){
         break;
       }
