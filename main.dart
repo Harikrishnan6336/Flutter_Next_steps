@@ -1,4 +1,4 @@
-//This source code is meant to be submitted to Flutter Next Steps | Learn From Home by Tinkerhub
+//This source code is meant to be submitted to Learn From Home by Tinkerhub
 import 'dart:io';
   
 class tech{
@@ -15,7 +15,6 @@ class tech{
     String stack;
     print("Enter the tech skill in which the mentor/learner is  expert at/interested in : ");
     stack = stdin.readLineSync();
-    stack = stack.trim();
     return stack;
   }
   
@@ -37,7 +36,6 @@ class tech{
       print("Enter the designation of the participant (mentor/learner)?");
       desig = stdin.readLineSync();
       desig = desig.toLowerCase();
-      desig = desig.trim();
       if(desig != "learner" || desig != "mentor"){
         print("Invalid input");
         continue;
@@ -51,7 +49,6 @@ class tech{
       print("Do you want to add more participants? (Y/N)");
       flag = stdin.readLineSync();
       flag = flag.toUpperCase();
-      flag = flag.trim();
       if(flag =='N'){
         break;
       }
@@ -64,13 +61,18 @@ class tech{
 
 //Finds suitable available mentors, takes stack and available time as parameters
   void getMentor(List tech,int time){
+    int f = 0;
     for(int i = 0; i < 300; ++i){
       if(skill[i] == tech){
         if(available_time[i] >= time){
           print("The mentor available is  ${participant_name[i]}. ");
+          f = 1;
           break;
         }      
       }
+    }
+    if(f == 0){
+      print("A mentor is not available with given specifications");
     }  
   }
 }
