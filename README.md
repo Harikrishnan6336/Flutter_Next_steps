@@ -1,5 +1,6 @@
-# Flutter_Next_steps | Learn From Home by TinkerHub
-My solution submission to Flutter_Next_steps | Learn From Home by TinkerHub.
+# Flutter Next steps | Learn From Home by TinkerHub
+My solution submission to Flutter Next steps | Learn From Home by TinkerHub.
+
 The Selection Procedure is based on the solution to the following problem statement.
 ## Problem Statement
 
