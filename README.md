@@ -1,2 +1,18 @@
-# Flutter_Next_steps
-My task submission to Flutter Next Steps | Learn From Home by TinkerHub
+# Flutter_Next_steps | Learn From Home by TinkerHub
+My solution submission to Flutter_Next_steps | Learn From Home by TinkerHub
+
+The Selection Procedure is based on the solution to the following problem statement
+## Problem Statement
+
+Write a dart class for tech learners and mentors. Should have following methods
+addStacks() : Add a particular stack of interest/expertise
+setMentorOrLearner() : Set whether the participant is learner or mentor
+setAvailableTime() : if person is mentor set available time
+getMentor() : Takes stack and time as params and finds available mentors. 
+
+Please use the same method names.
+
+The adviced resources(by TinkerHub) to learn Dart programming language are as follows :
+https://dart.dev/
+https://www.youtube.com/watch?v=Ej_Pcr4uC2Q
+https://dartpad.dartlang.org/
